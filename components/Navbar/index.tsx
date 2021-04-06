@@ -68,9 +68,11 @@ export default function Navbar() {
 							Why us?
 						</a>
 
-						<button className="flex items-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-							Get In Touch
-						</button>
+						<Link href="/contact">
+							<a className="flex items-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 cursor-pointer">
+								Get In Touch
+							</a>
+						</Link>
 					</div>
 				</div>
 			</div>

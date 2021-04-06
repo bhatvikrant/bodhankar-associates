@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Link from 'next/link'
 
 // COMPONENTS
 import Ethos from '../components/AboutComponents/Ethos'
@@ -50,11 +51,11 @@ const About = (): JSX.Element => {
 							</p>
 
 							<div className="mt-8">
-								<a
-									href="#"
-									className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-									Get In Touch
-								</a>
+								<Link href="/contact">
+									<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
+										Get In Touch
+									</a>
+								</Link>
 							</div>
 						</div>
 					</div>

@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 // MUI
 import CheckIcon from '@material-ui/icons/Check'
 
@@ -38,11 +40,11 @@ const Landing = () => {
 					</div>
 
 					<div className="mt-8">
-						<a
-							href="#"
-							className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-							See All Services
-						</a>
+						<Link href="/services">
+							<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
+								See All Services
+							</a>
+						</Link>
 					</div>
 				</div>
 

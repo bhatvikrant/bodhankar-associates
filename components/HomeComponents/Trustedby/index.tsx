@@ -1,12 +1,4 @@
-// STYLES
-import styles from './index.module.css'
-
-// TS INTERFACES
-interface Props {}
-
-const Trustedby = (props: Props): JSX.Element => {
-	const {} = props
-
+const Trustedby = (): JSX.Element => {
 	return (
 		<section className="p-6 dark:bg-coolGray-800 dark:text-coolGray-100">
 			<div className="container p-4 mx-auto text-center">

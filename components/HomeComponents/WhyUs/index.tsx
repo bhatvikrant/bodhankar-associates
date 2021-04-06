@@ -1,3 +1,5 @@
+import Link from 'next/link'
+
 const WhyUs = (): JSX.Element => {
 	return (
 		<div className="bg-white dark:bg-gray-800">
@@ -41,11 +43,11 @@ const WhyUs = (): JSX.Element => {
 						</p> */}
 
 						<div className="mt-8">
-							<a
-								href="#"
-								className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
-								Get in touch
-							</a>
+							<Link href="/contact">
+								<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
+									Get in touch
+								</a>
+							</Link>
 						</div>
 					</div>
 				</div>
