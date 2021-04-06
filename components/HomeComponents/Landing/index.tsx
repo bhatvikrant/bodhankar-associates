@@ -50,7 +50,7 @@ const Landing = () => {
 					<img
 						className="object-cover w-full h-full max-w-2xl rounded-md"
 						src="/images/homepage-landing.jpeg"
-						alt="glasses photo"
+						alt="Blindfolded woman holding a balance"
 					/>
 				</div>
 			</div>

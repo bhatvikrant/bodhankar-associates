@@ -11,7 +11,7 @@ const About = (): JSX.Element => {
 						<img
 							className="object-cover w-full h-full max-w-2xl rounded-md"
 							src="/images/why-us.jpeg"
-							alt="glasses photo"
+							alt="Bodhankar & Associates"
 						/>
 					</div>
 
