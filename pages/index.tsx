@@ -1,7 +1,9 @@
+import HomepageLanding from '../components/HomepageLanding'
+
 const Home = () => {
 	return (
 		<div>
-			<p className="text-red-500">home</p>
+			<HomepageLanding />
 		</div>
 	)
 }

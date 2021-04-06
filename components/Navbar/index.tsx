@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import { useRouter } from 'next/router'
 
 // MUI
@@ -46,16 +47,9 @@ export default function Navbar() {
 					backgroundColor: '#35363a'
 				}}>
 				<Toolbar>
-					{/* HAMBURGER MENU ICON */}
-					<span className="md:hidden">
-						<IconButton
-							edge="start"
-							color="inherit"
-							aria-label="menu"
-							onClick={toggleSideDrawer}>
-							<MenuIcon />
-						</IconButton>
-					</span>
+					<div className="mr-4">
+						<Image src="/logo.jpg" height="40" width="40" />
+					</div>
 
 					<p className="flex-1 font-bold text-md  md:text-2xl">BODHANKAR & ASSOCIATES</p>
 
@@ -73,6 +67,20 @@ export default function Navbar() {
 							</a>
 						</Link>
 					</div>
+
+					{/* HAMBURGER MENU ICON */}
+					<span className="md:hidden">
+						<IconButton
+							edge="start"
+							color="inherit"
+							aria-label="menu"
+							onClick={toggleSideDrawer}
+							style={{
+								padding: 0
+							}}>
+							<MenuIcon />
+						</IconButton>
+					</span>
 				</Toolbar>
 			</AppBar>
 

@@ -1,0 +1,7 @@
+.header__container {
+	background-image: linear-gradient(rgba(41, 41, 39, 0.7), rgba(41, 41, 39, 0.7)),
+		url(../../public/homepage-bg.jpg);
+	height: 90vh;
+	background-size: cover;
+	background-position: center;
+}
