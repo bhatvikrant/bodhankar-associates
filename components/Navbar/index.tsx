@@ -1,23 +1,10 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
-import { useRouter } from 'next/router'
 
 // MUI
-import { createStyles, makeStyles, Theme } from '@material-ui/core/styles'
 import MenuIcon from '@material-ui/icons/Menu'
 
-const useStyles = makeStyles((theme: Theme) =>
-	createStyles({
-		root: {
-			flexGrow: 1
-		}
-	})
-)
-
 export default function Navbar() {
-	const classes = useStyles()
-	const router = useRouter()
-
 	const [showDrawer, setShowDrawer] = useState(false)
 
 	const toggleSideDrawer = () => setShowDrawer(!showDrawer)
@@ -33,7 +20,7 @@ export default function Navbar() {
 							<Image src="/logo.jpg" height="30" width="30" />
 						</div> */}
 						<Link href="/">
-							<a className="md:text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300">
+							<a className="font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300">
 								BODHANKAR & ASSOCIATES
 							</a>
 						</Link>
@@ -43,14 +30,15 @@ export default function Navbar() {
 						<button
 							type="button"
 							className="text-gray-500 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400 focus:outline-none focus:text-gray-600 dark:focus:text-gray-400"
-							aria-label="Toggle menu">
+							aria-label="Toggle menu"
+							onClick={toggleSideDrawer}>
 							<MenuIcon />
 						</button>
 					</div>
 				</div>
 
 				{/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
-				<div className="items-center md:flex">
+				<div className={`items-center md:flex ${showDrawer ? 'block' : 'hidden'} md:block`}>
 					<div className="flex flex-col mt-4 space-y-8 md:flex-row md:items-center md:mt-0 md:space-y-0 md:space-x-16">
 						<Link href="/about">
 							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
