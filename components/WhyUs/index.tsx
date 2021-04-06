@@ -1,6 +1,3 @@
-// MUI
-import CheckIcon from '@material-ui/icons/Check'
-
 const WhyUs = (): JSX.Element => {
 	return (
 		<div className="bg-white dark:bg-gray-800">
