@@ -12,6 +12,9 @@ import theme from '../theme'
 // TAILWIND
 import 'tailwindcss/tailwind.css'
 
+// COMPONENTS
+import Navbar from '../components/Navbar/index'
+
 export default function MyApp({ Component, pageProps }: AppProps) {
 	React.useEffect(() => {
 		// Remove the server-side injected CSS.
@@ -33,6 +36,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 			<ThemeProvider theme={theme}>
 				{/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
 				<CssBaseline />
+				<Navbar />
 				<Component {...pageProps} />
 			</ThemeProvider>
 		</React.Fragment>
