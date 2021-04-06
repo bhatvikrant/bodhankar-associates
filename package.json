@@ -5,7 +5,8 @@
 	"scripts": {
 		"dev": "next dev",
 		"build": "next build",
-		"start": "next start"
+		"start": "next start",
+		"prepare": "husky install"
 	},
 	"dependencies": {
 		"@material-ui/core": "latest",
@@ -17,9 +18,16 @@
 	},
 	"devDependencies": {
 		"@types/node": "^14.14.37",
-		"@types/react": "^17.0.3",
-		"typescript": "^4.2.3",
 		"@types/prettier": "^1.19.1",
-		"prettier": "^2.1.1"
+		"@types/react": "^17.0.3",
+		"husky": "^6.0.0",
+		"lint-staged": "^10.5.4",
+		"prettier": "^2.1.1",
+		"typescript": "^4.2.3"
+	},
+	"lint-staged": {
+		"**/*.{js, jsx, ts, tsx}": [
+			"yarn prettier --write"
+		]
 	}
 }
