@@ -23,12 +23,12 @@ const Mission = (): JSX.Element => {
 						</svg>
 
 						<h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-							Default Taiwindcss Config
+							Provide efficient solutions
 						</h1>
 
 						<p className="mt-2 text-gray-500 dark:text-gray-400">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
-							tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+							To provide efficient solutions & value added service to clients on
+							specified assignments in cost effective and time bound processes
 						</p>
 					</div>
 
@@ -49,12 +49,11 @@ const Mission = (): JSX.Element => {
 						</svg>
 
 						<h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-							Fully Responsive Components
+							Develop relationships
 						</h1>
 
 						<p className="mt-2 text-gray-500 dark:text-gray-400">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
-							tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+							To constantly develop professional and social relationships with clients
 						</p>
 					</div>
 
@@ -90,12 +89,12 @@ const Mission = (): JSX.Element => {
 						</svg>
 
 						<h1 className="mt-4 text-xl font-semibold text-gray-800 dark:text-white">
-							RTL Languages Support
+							Upgrade efficiency
 						</h1>
 
 						<p className="mt-2 text-gray-500 dark:text-gray-400">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit. Dignissim fusce
-							tortor, ac sed malesuada blandit. Et mi gravida sem feugiat.
+							To constantly update related knowledge on specified areas and domains to
+							upgrade efficiency & competency
 						</p>
 					</div>
 				</div>
