@@ -1,3 +1,6 @@
+import Head from 'next/head'
+
+// COMPONENTS
 import Ethos from '../components/AboutComponents/Ethos'
 import Mission from '../components/AboutComponents/Mission'
 import Vision from '../components/AboutComponents/Vision'
@@ -5,6 +8,13 @@ import Vision from '../components/AboutComponents/Vision'
 const About = (): JSX.Element => {
 	return (
 		<>
+			<Head>
+				<title>About us | Bodhankar & Associates</title>
+				<meta
+					name="viewport"
+					content="minimum-scale=1, initial-scale=1, width=device-width"
+				/>
+			</Head>
 			<div className="bg-white dark:bg-gray-800">
 				<div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
 					<div className="flex items-center justify-center w-full h-96 md:w-1/2">
