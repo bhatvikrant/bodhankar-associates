@@ -1,7 +1,7 @@
-import HomepageLanding from '../components/HomepageLanding'
-import Trustedby from '../components/Trustedby'
-import AdvisoryBoard from '../components/AdvisoryBoard'
-import WhyUs from '../components/WhyUs/index'
+import HomepageLanding from '../components/HomeComponents/Landing'
+import Trustedby from '../components/HomeComponents/Trustedby'
+import AdvisoryBoard from '../components/HomeComponents/AdvisoryBoard'
+import WhyUs from '../components/HomeComponents/WhyUs'
 
 const Home = () => {
 	return (

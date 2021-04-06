@@ -1,7 +1,7 @@
 // MUI
 import CheckIcon from '@material-ui/icons/Check'
 
-const HomepageLanding = () => {
+const Landing = () => {
 	return (
 		<header className="bg-white dark:bg-gray-800">
 			<div className="container flex flex-col px-6 py-10 mx-auto space-y-6 md:h-128 md:py-16 md:flex-row md:items-center md:space-x-6">
@@ -58,4 +58,4 @@ const HomepageLanding = () => {
 	)
 }
 
-export default HomepageLanding
+export default Landing
