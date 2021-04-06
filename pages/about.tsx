@@ -1,4 +1,5 @@
 import Mission from '../components/AboutComponents/Mission'
+import Vision from '../components/AboutComponents/Vision'
 
 const About = (): JSX.Element => {
 	return (
@@ -48,6 +49,7 @@ const About = (): JSX.Element => {
 					</div>
 				</div>
 			</div>
+			<Vision />
 			<Mission />
 		</>
 	)
