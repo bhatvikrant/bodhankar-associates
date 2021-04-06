@@ -11,10 +11,8 @@ const HomepageLanding = () => {
 							Get Accurate Legal Assistance
 						</h1>
 						<p className="mt-2 text-gray-600 dark:text-gray-300">
-							Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda
-							quisquam beatae nobis ipsa consectetur eum tempore impedit cumque,
-							adipisci quidem tempora consequuntur esse quaerat et fuga enim maiores
-							iusto? Reiciendis.
+							Our services are pure consultations on Management and Legal matters. We
+							provide advise, counsel and suggest modes for resolution to our clients.
 						</p>
 						<div className="grid gap-6 mt-8 sm:grid-cols-2">
 							<div className="flex items-center space-x-6 text-gray-800 dark:text-gray-200">
@@ -37,6 +35,14 @@ const HomepageLanding = () => {
 								<span>MSME & Startup Compliance</span>
 							</div>
 						</div>
+					</div>
+
+					<div className="mt-8">
+						<a
+							href="#"
+							className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
+							See All Services
+						</a>
 					</div>
 				</div>
 

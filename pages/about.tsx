@@ -1,3 +1,4 @@
+import Ethos from '../components/AboutComponents/Ethos'
 import Mission from '../components/AboutComponents/Mission'
 import Vision from '../components/AboutComponents/Vision'
 
@@ -51,6 +52,7 @@ const About = (): JSX.Element => {
 			</div>
 			<Vision />
 			<Mission />
+			<Ethos />
 		</>
 	)
 }
