@@ -5,7 +5,7 @@ const WhyUs = (): JSX.Element => {
 				<div className="flex items-center justify-center w-full h-96 md:w-1/2">
 					<img
 						className="object-cover w-full h-full max-w-2xl rounded-md"
-						src="/images/homepage-landing.jpeg"
+						src="/images/why-us.jpeg"
 						alt="glasses photo"
 					/>
 				</div>
