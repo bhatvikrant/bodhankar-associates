@@ -29,6 +29,7 @@ const Footer = (): JSX.Element => {
 								<a
 									href="https://www.linkedin.com/company/bodhankar-&-associates/"
 									target="_blank"
+									rel="noreferrer"
 									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
 									aria-label="Linkden">
 									<LinkedInIcon />
@@ -37,6 +38,7 @@ const Footer = (): JSX.Element => {
 								<a
 									href="https://www.instagram.com/sunbodh/"
 									target="_blank"
+									rel="noreferrer"
 									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
 									aria-label="Instagram">
 									<InstagramIcon />
@@ -45,6 +47,7 @@ const Footer = (): JSX.Element => {
 								<a
 									href="https://twitter.com/sunbodh"
 									target="_blank"
+									rel="noreferrer"
 									className="mx-2 text-gray-700 dark:text-gray-200 hover:text-gray-600 dark:hover:text-gray-400"
 									aria-label="Twitter">
 									<TwitterIcon />
