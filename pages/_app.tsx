@@ -14,6 +14,7 @@ import 'tailwindcss/tailwind.css'
 
 // COMPONENTS
 import Navbar from '../components/Navbar/index'
+import Footer from '../components/Footer/index'
 
 export default function MyApp({ Component, pageProps }: AppProps) {
 	React.useEffect(() => {
@@ -38,6 +39,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 				<CssBaseline />
 				<Navbar />
 				<Component {...pageProps} />
+				<Footer />
 			</ThemeProvider>
 		</React.Fragment>
 	)
