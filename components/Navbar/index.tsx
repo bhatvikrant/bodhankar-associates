@@ -49,12 +49,13 @@ export default function Navbar() {
 							style={{ height: '30px !important' }}>
 							<Image src="/logo.jpg" height="30" width="30" />
 						</div> */}
-
-						<a
-							className="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300"
-							href="#">
-							BODHANKAR & ASSOCIATES
-						</a>
+						<Link href="/">
+							<a
+								className="text-xl font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300"
+								href="#">
+								BODHANKAR & ASSOCIATES
+							</a>
+						</Link>
 					</div>
 					{/* <!-- Mobile menu button --> */}
 					<div className="md:hidden">
@@ -72,11 +73,11 @@ export default function Navbar() {
 				{/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
 				<div className="items-center md:flex">
 					<div className="flex flex-col mt-4 space-y-8 md:flex-row md:items-center md:mt-0 md:space-y-0 md:space-x-16">
-						<a
-							className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
-							href="#">
-							glasses Search
-						</a>
+						<Link href="/about">
+							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
+								About us
+							</a>
+						</Link>
 						<a
 							className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
 							href="#">
@@ -94,7 +95,7 @@ export default function Navbar() {
 						</a>
 
 						<button className="flex items-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600">
-							Get in touch
+							Get In Touch
 						</button>
 					</div>
 				</div>
