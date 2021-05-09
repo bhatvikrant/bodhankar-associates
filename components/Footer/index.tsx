@@ -118,10 +118,12 @@ const Footer = (): JSX.Element => {
 							</div>
 
 							<div>
-								<h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
-								<span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
-									+1 526 654 8965
+								<a href='tel:+919849792800'>
+									<h3 className="text-gray-700 uppercase dark:text-white">Contact</h3>
+									<span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
+										+91 9849792800
 								</span>
+								</a>
 								<span className="block mt-2 text-sm text-gray-600 dark:text-gray-400 hover:underline">
 									example@email.com
 								</span>
