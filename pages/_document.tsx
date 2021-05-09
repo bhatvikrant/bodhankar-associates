@@ -10,7 +10,7 @@ export default class MyDocument extends Document {
         <Head>
           {/* PWA primary color */}
           <meta name="theme-color" content={theme.palette.primary.main} />
-          <meta name="desciption" content="Bodhankar & Associates is a knowledge services firm providing consulting services in the areas of Human Resource Management, Legal Compliance & Organization Development. The firm guides individuals, small & medium enterprises and startups through consultation and mediation." />
+          <meta name="description" content="Bodhankar & Associates is a knowledge services firm providing consulting services in the areas of Human Resource Management, Legal Compliance & Organization Development. The firm guides individuals, small & medium enterprises and startups through consultation and mediation." />
           <link
             rel="stylesheet"
             href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
