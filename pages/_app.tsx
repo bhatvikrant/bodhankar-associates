@@ -35,7 +35,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
 				/>
 				<link rel="icon"
 					type="image/png"
-					href="/logo.png" />
+					href="/favicon.jpg" />
 			</Head>
 			<ThemeProvider theme={theme}>
 				{/* CssBaseline kickstart an elegant, consistent, and simple baseline to build upon. */}
