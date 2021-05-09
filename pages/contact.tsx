@@ -29,7 +29,7 @@ const Contact = (): JSX.Element => {
 					</a>
 
 					<a
-						href="#"
+						href="tel:+919849792800"
 						className="flex flex-col items-center px-4 py-3 text-gray-700 rounded-md dark:text-gray-200 hover:bg-blue-200 dark:hover:bg-blue-500">
 						<svg
 							className="w-5 h-5"
@@ -39,7 +39,7 @@ const Contact = (): JSX.Element => {
 							<path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
 						</svg>
 
-						<span className="mt-2">+2499999666600</span>
+						<span className="mt-2">+91 9849792800</span>
 					</a>
 
 					<a
