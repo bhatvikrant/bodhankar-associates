@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 // MUI
 import MenuIcon from '@material-ui/icons/Menu'
@@ -14,16 +15,19 @@ export default function Navbar() {
 			<div className="container px-6 py-4 mx-auto md:flex md:justify-between md:items-center">
 				<div className="flex items-center justify-between">
 					<div>
-						{/* <div
-							className="mr-4 inline self-center"
-							style={{ height: '30px !important' }}>
-							<Image src="/logo.jpg" height="30" width="30" />
-						</div> */}
 						<Link href="/">
-							<a className="font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300">
-								BODHANKAR & ASSOCIATES
+
+							<a
+								className="mr-4 inline self-center"
+							>
+								<Image src="/logo.png" height="80" width="150" />
 							</a>
 						</Link>
+						{/* <Link href="/">
+							<a className="font-bold text-gray-800 dark:text-white md:text-2xl hover:text-gray-700 dark:hover:text-gray-300 my-auto">
+								BODHANKAR & ASSOCIATES
+							</a>
+						</Link> */}
 					</div>
 					{/* <!-- Mobile menu button --> */}
 					<div className="md:hidden">
