@@ -40,7 +40,7 @@ const Landing = () => {
 					</div>
 
 					<div className="mt-8">
-						<Link href="/services">
+						<Link href="/what-we-do">
 							<a className="px-5 py-2 font-semibold text-gray-100 transition-colors duration-200 transform bg-gray-900 rounded-md hover:bg-gray-700">
 								See All Services
 							</a>
