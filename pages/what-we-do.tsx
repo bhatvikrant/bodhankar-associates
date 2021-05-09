@@ -21,7 +21,7 @@ const scopeOfWork = [
 	'Immigration Laws'
 ]
 
-const Services = (): JSX.Element => {
+const WhatWeDo = (): JSX.Element => {
 	return (
 		<div className="bg-gray-100">
 			<div className="px-4 py-16 w-full space-y-1 text-center bg-white">
@@ -75,4 +75,4 @@ const Services = (): JSX.Element => {
 	)
 }
 
-export default Services
+export default WhatWeDo

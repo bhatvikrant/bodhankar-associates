@@ -1,6 +1,6 @@
 const Mission = (): JSX.Element => {
 	return (
-		<section className="bg-white dark:bg-gray-800">
+		<section className="bg-white dark:bg-gray-800 pb-16">
 			<div className="container p-4 mx-auto text-center">
 				<h2 className="text-4xl font-bold mt-8">Mission</h2>
 			</div>

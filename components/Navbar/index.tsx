@@ -45,16 +45,26 @@ export default function Navbar() {
 								About us
 							</a>
 						</Link>
-						<Link href="/services">
+						<Link href="/ethos">
 							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
-								Services
+								Ethos
 							</a>
 						</Link>
-						<a
+						<Link href="/what-we-do">
+							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
+								What We Do
+							</a>
+						</Link>
+						<Link href="/">
+							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
+								Resources
+							</a>
+						</Link>
+						{/* <a
 							className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
 							href="#">
 							Why us?
-						</a>
+						</a> */}
 
 						<Link href="/contact">
 							<a className="flex items-center px-5 py-2 text-sm font-medium tracking-wide text-center text-white capitalize transition-colors duration-200 transform bg-gray-700 rounded-md hover:bg-gray-600 focus:outline-none focus:bg-gray-600 cursor-pointer">
