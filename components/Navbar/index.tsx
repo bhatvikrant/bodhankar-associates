@@ -20,7 +20,7 @@ export default function Navbar() {
 							<a
 								className="mr-4 inline self-center"
 							>
-								<Image src="/logo.png" height="80" width="150" />
+								<Image src="/logo.png" height="80" width="150" alt='BODHANKAR & ASSOCIATES logo' />
 							</a>
 						</Link>
 						{/* <Link href="/">
