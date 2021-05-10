@@ -65,6 +65,11 @@ export default function Navbar() {
 								Resources
 							</a>
 						</Link>
+						<Link href="/">
+							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
+								Associate
+							</a>
+						</Link>
 						{/* <a
 							className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline"
 							href="#">
