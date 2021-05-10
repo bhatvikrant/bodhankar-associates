@@ -59,7 +59,7 @@ const DisclaimerModal = (): JSX.Element => {
       >
         <div className="p-4">
 
-          <h2 className='font-bold text-xl mb-4'>Welcome to the website of Bodhankar & Associates!
+          <h2 className='font-bold text-xl mb-4'>Welcome to Bodhankar & Associates!
 </h2>
           <p className='mb-4'>By clicking on the “Accept” button below, the website visitor agrees and acknowledges that:-
 </p>
