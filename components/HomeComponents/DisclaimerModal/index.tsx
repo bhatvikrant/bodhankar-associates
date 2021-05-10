@@ -64,7 +64,7 @@ const DisclaimerModal = (): JSX.Element => {
           <p className='mb-4'>By clicking on the “Accept” button below, the website visitor agrees and acknowledges that:-
           </p>
 
-          <ol className='list-decimal list-outside' style={{ listStyle: 'initial !important' }}>
+          <ol className='list-decimal list-outside' style={{ listStyle: 'decimal !important' }}>
             <li>
               Grant of access to this website does not amount to any advertisement, personal communication, solicitation, invitation or any other inducement of any sort whatsoever by or on behalf of Bodhankar & Associates or any of its Associates to solicit any work through this website.
             </li>
