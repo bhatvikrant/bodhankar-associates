@@ -2,6 +2,9 @@ import React from 'react'
 import type { AppProps } from 'next/app'
 import Head from 'next/head'
 
+// GLOBAL CSS
+import '../styles/globals.css'
+
 import PropTypes from 'prop-types'
 
 // MUI
@@ -9,8 +12,6 @@ import { ThemeProvider } from '@material-ui/core/styles'
 import CssBaseline from '@material-ui/core/CssBaseline'
 import theme from '../theme'
 
-// TAILWIND
-import 'tailwindcss/tailwind.css'
 
 // COMPONENTS
 import Navbar from '../components/Navbar/index'
