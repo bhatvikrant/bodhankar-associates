@@ -50,6 +50,7 @@ const DisclaimerModal = (): JSX.Element => {
     aria-describedby="scroll-dialog-description"
     disableBackdropClick
     disableEscapeKeyDown
+    maxWidth='lg'
   >
     <DialogTitle id="scroll-dialog-title">DISCLAIMER</DialogTitle>
     <DialogContent dividers={true}>
