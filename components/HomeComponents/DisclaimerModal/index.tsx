@@ -34,6 +34,7 @@ const DisclaimerModal = (): JSX.Element => {
   }, [open]);
 
   const decline = () => {
+    window.close()
     localStorage.setItem('disclaimer-accepted', '0')
     handleClose()
   }
