@@ -45,6 +45,11 @@ export default function Navbar() {
 				{/* <!-- Mobile Menu open: "block", Menu closed: "hidden" --> */}
 				<div className={`items-center md:flex ${showDrawer ? 'block' : 'hidden'} md:block`}>
 					<div className="flex flex-col mt-4 space-y-8 md:flex-row md:items-center md:mt-0 md:space-y-0 md:space-x-16">
+						<Link href="/">
+							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
+								Home
+							</a>
+						</Link>
 						<Link href="/about">
 							<a className="block font-medium text-gray-700 dark:text-gray-200 hover:text-gray-900 dark:hover:text-gray-400 hover:underline">
 								About us
