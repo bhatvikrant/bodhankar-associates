@@ -60,42 +60,42 @@ const DisclaimerModal = (): JSX.Element => {
         <div className="p-4">
 
           <h2 className='font-bold text-xl mb-4'>Welcome to Bodhankar & Associates!
-</h2>
+          </h2>
           <p className='mb-4'>By clicking on the “Accept” button below, the website visitor agrees and acknowledges that:-
-</p>
+          </p>
 
-          <ol className='list-decimal list-outside'>
+          <ol className='list-decimal list-outside' style={{ listStyle: 'initial !important' }}>
             <li>
               Grant of access to this website does not amount to any advertisement, personal communication, solicitation, invitation or any other inducement of any sort whatsoever by or on behalf of Bodhankar & Associates or any of its Associates to solicit any work through this website.
-    </li>
+            </li>
             <li>
               The user wishes to gain more information about Bodhankar & Associates for his/her/their own information.
 
-    </li>
+            </li>
             <li>
               Grant of access to this website is based on the voluntary request of the user in order to understand our practice areas and garner information about us. Any information obtained or materials downloaded from this website are completely at the user’s volition and any transmission, receipt or use of this site would not create any lawyer-client relationship. Neither this website nor the web pages and the information contained herein constitute a contract, or will form the basis of a contract, or any legal relationship.
-    </li>
+            </li>
             <li>
               This website is a resource for informational purposes only and though intended, is not promised or guaranteed, to be complete or updated. Bodhankar & Associates does not warrant that the information contained on this website is accurate or complete, and hereby disclaims all liability to any person for any loss or damage caused by errors or omissions, whether such errors or omissions result from negligence, accident or any other cause.
-    </li>
+            </li>
             <li>
               Bodhankar & Associates assumes no liability for the interpretation and/or use of the information contained on this website, nor does it offer a warranty of any kind, either express or implied. While, every care has been taken in preparing the content of this website and web pages to ensure accuracy at the time of publication and creation, however, Bodhankar & Associates assumes no responsibility for any errors, which despite all precautions may be found herein.
-    </li>
+            </li>
             <li>
               The contents of this website do not constitute, and shall not be construed as, legal advice or a substitute for legal advice.
-    </li>
+            </li>
             <li>
               Bodhankar & Associates is not liable for any consequence of any action taken by the user relying on material / information provided on this website or through any external links thereon.
-    </li>
+            </li>
             <li>
               The information provided under this website is solely available at the user’s request for informational purposes only and should not be interpreted as soliciting or advertisement.
-    </li>
+            </li>
             <li>
               Selective material and information (except any statutory instruments or judicial precedents) on this website is proprietary of Bodhankar & Associates, and no part thereof shall be used, with or without adaptation, without the express prior written consent of Bodhankar & Associates.
-    </li>
+            </li>
             <li>
               All disputes, if any, are subject to the exclusive jurisdiction of competent courts in India, at Hyderabad only.
-    </li>
+            </li>
           </ol>
 
         </div>
